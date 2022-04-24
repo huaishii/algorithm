@@ -47,7 +47,7 @@ public class RotateTheBox {
                     if(pos != j-1)
                         box[i][j] = '.';
                 }else if(box[i][j] == '*'){
-                    //遇到障碍物,将pos位置充值
+                    //遇到障碍物,将pos位置重置
                     pos = j-1;
                 }
             }
